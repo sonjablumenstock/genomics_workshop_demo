@@ -23,4 +23,3 @@ class DNA:
     @property
     def complimentary_sequence(self):
         return DNA(''.join(complimentary_nucleotides[nt.upper()] for nt in self.sequence))
-
